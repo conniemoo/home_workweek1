@@ -1,0 +1,39 @@
+.first-box{
+
+
+    width: 600px;
+    height: 600px;
+   background-color:rgba(0,0,0,0.4);
+   padding: 40px;
+   color: white;
+   margin: 0 auto;
+   
+  
+}
+html { 
+    background: url("background.jpg") no-repeat center center fixed; 
+    
+    background-size: auto;
+  }
+    .profilepic{
+        border-radius: 50px;
+        height:100px ;
+        width: 100px;
+    }
+    .footer{
+        position: relative;
+        height: 50px;
+        background-color:rgba(0, 0, 0, 0.4);
+        text-align: center;
+        color: white;
+    }
+    .footer p{
+        padding: 10px;
+    }
+     td {
+        padding: 15px;
+    }
+    th{
+        text-decoration: underline;
+        padding: 15px;
+    }

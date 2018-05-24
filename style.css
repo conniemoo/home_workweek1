@@ -1,12 +1,14 @@
 .first-box{
 
 
-    width: 600px;
+    width: 1100px;
     height: 600px;
    background-color:rgba(0,0,0,0.4);
    padding: 40px;
    color: white;
    margin: 0 auto;
+   margin-top: 20px;
+   overflow: auto;
    
   
 }
@@ -28,12 +30,219 @@ html {
         color: white;
     }
     .footer p{
-        padding: 10px;
+        padding: 20px;
+        margin-top: 20px;
+       
+        
     }
-     td {
-        padding: 15px;
+       .personalinfo td {
+        padding: 20px;
     }
     th{
         text-decoration: underline;
-        padding: 15px;
+        padding: 25px;
+        font-size: 30px;
+        text-transform:  uppercase;
     }
+    .navigationbar{
+
+        background-color:rgba(0, 0, 0, 0.4);
+
+    }
+    .menu{
+       
+        font-family: sans-serif;
+        font-size: 14px;
+        float: right;
+        margin-top: 20px;
+    }
+    .menu li{
+        display: inline;
+       padding: 22px;
+       
+   
+    }
+    .menu li a{
+        text-transform: uppercase;
+        text-decoration: none;
+    }
+    .fa{
+         
+            padding: 10px;
+            font-size: 40px;
+            width: 20px;
+            
+    }
+    .fa-facebook {
+        background: #3B5998;
+        color: white;
+    }
+    .fa-twitter {
+        background: #55ACEE;
+        color: white;
+    }
+    .socialmedia{
+       
+        float:right;
+    }
+    @media only screen and (max-width: 1142px ) {
+        
+        .socialmedia{
+            float:left;
+        }
+        
+    }
+    h1{
+        font-family: sans-serif;
+      
+        text-transform:  uppercase;
+        color:#44d9e6;
+    }
+    h1 span{
+        color:#f2f2f2;
+    }
+  
+       
+   
+   .skills{
+       margin:20px;
+       padding-top: 20px;
+   }
+.personalinfo{
+    margin-top: 20px;
+}
+.firstparagraph{
+    margin-top: 10px;
+}
+.w3-light-grey{
+  
+    padding: 5px;
+   
+    background-color:#276f92;
+    border: 1px solid #1c1f20;
+    border-radius: 2px;
+    box-sizing: border-box;
+}
+.w3-grey{
+  
+  height:20px;
+    width: 100%; 
+   background-color: #143a4d;
+ 
+    
+}
+.w3-container{
+    
+
+    width: 600px;
+    height: 200px;
+   background-color:rgba(0, 0, 0, 0.247);
+   padding: 40px;
+   margin-top: 20px;
+}
+.w3-container h2{
+    text-align: center;
+    font-size: 36px;
+    border:   2px solid #1c1717;
+     width: 200px;
+    text-transform:  uppercase;
+    margin: auto;
+    margin-top: 2px;
+    margin-bottom: 20px;
+
+}
+.level{
+    float:right;
+}
+.w3-container p{
+    text-transform: uppercase;
+}
+.gallery-container{
+    
+
+    width: 600px;
+    height: 400px;
+   background-color:rgba(0, 0, 0, 0.247);
+   padding: 40px;
+   margin-top: 20px;
+  
+}
+.gallery-container h2{
+    text-align: center;
+    font-size: 36px;
+    border:   2px solid #1c1717;
+     width: 200px;
+    text-transform:  uppercase;
+    margin: auto;
+    margin-top: 1px;
+    margin-bottom: 20px;
+
+}
+
+.photogallery{
+
+    border:   2px solid #1c1717;
+    width: 150px;
+    height:150px ;
+    background-color: #f2f2f2;
+    margin-top: 20px;
+}
+.image-description{
+    text-align: center;
+    text-transform:  uppercase;
+    margin-top: 20px;
+    color: #1c1f20;
+    
+}
+.flex-container{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+
+}
+.news-container{
+
+    width: 800px;
+    height: 400px;
+   background-color:rgba(0, 0, 0, 0.247);
+   padding: 40px;
+   margin-top: 20px;
+}
+.news-container h2{
+
+ text-align: center;
+    font-size: 36px;
+    border:   2px solid #1c1717;
+     width: 200px;
+    text-transform:  uppercase;
+    margin: auto;
+    margin-top: 1px;
+    margin-bottom: 20px;
+
+}
+
+    
+   
+
+.twitter-news{
+    margin-top: 40px;
+}
+.button {
+    background-color:#000000;
+    border: none;
+    color: #ffffff;
+  width: 200px;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 20px;
+  
+   
+}
+.twitter{
+    width:200px;
+}
+.news-column{
+    display: flex;
+    justify-content: space-between;
+
+}
